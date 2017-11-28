@@ -5,9 +5,9 @@
 	</head>
 	<body>
 		<H1>About:Poppy</H1>
-		<img src=”images/homepage.jpg” width=”600” alt=”Poppy and Birch” />
+		<img src="poppy.jpg" width="600" alt="PoppyImage" />
 		<P>
-			Welcome to the Catz website! Have fun exploring!
+			This is Poppy, known commonly as Pop-Pops
 			<a href="https://connor-tingley.github.io/Catz/Home">here</a> 
 			</P>
 	</body>
