@@ -1,0 +1,33 @@
+body{
+	font-family: Palatino;
+	color: #e5e5e5;
+	background-color: rgb(40,40,40) 
+}
+p{
+	margin: 20px;
+}
+h1,h2,h3{
+	font-family: Georgia;
+	color: #e5e5e5;
+	background-color: rgb(100,100,100);
+	padding: 10px;
+}
+img {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+.mainBlock {
+	position: static;
+    display: inline-block;
+    width: 700px;
+    margin: 40px 20px 40px 150px;
+    background-color: rgb(80,80,80);
+}
+.linkBlock {
+    display: inline-block;
+    position: fixed;
+    background-color: rgb(80,80,80);
+    width: 200px;
+    margin: 40px 10px 10px 10px
+}
