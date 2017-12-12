@@ -22,34 +22,58 @@ a:link {
     color: rgb(158, 255, 191);
 }
 
-/* visited link */
 a:visited {
 	text-decoration: none;
     color: rgb(158, 255, 191);
 }
 
-/* mouse over link */
 a:hover {
 	text-decoration: none;
     color: rgb(158,192,255);
 }
 
-/* selected link */
 a:active {
 	text-decoration: none;
     color: rgb(167, 158, 255);
+}
+.titleBlock{
+	display: inline-block;
+    position: static;
+    font-family: Georgia;
+	color: rgb(229,229,229);
+	text-align: center;
+    font-size: 800%;
+    width: 110%;
+    margin: -10px -5% 0px -5%;
+	background-image: linear-gradient(to top, rgba(10, 10, 10,1), rgba(10, 10, 10,1) 50%);
+}
+.stickyBlock{
+	display: inline-block;
+    position: sticky;
+    top: 0;
+    width: 110%;
+    height: 70px;
+    line-height: 70px;
+    margin: 0px -5% 0px -1%;
+    text-indent: 20%;
+    font-family: Georgia;
+	color: rgb(229,229,229);
+    font-size: 200%;
+	background-image: linear-gradient(to top, rgba(20, 20, 20,1), rgba(20, 20, 20,1) 80%);
 }
 .mainBlock {
 	position: static;
     display: inline-block;
     width: 700px;
-    margin: 40px 20px 40px 150px;
+    margin: 20px 1% 40px 20%;
     background-color: rgb(80,80,80);
 }
 .linkBlock {
     display: inline-block;
-    position: fixed;
+    position: sticky;
+    vertical-align: top;
+    top: 90px;
     background-color: rgb(80,80,80);
     width: 200px;
-    margin: 40px 10px 10px 10px
+    margin: 20px 0% 10px 10px
 }
