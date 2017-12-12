@@ -6,6 +6,9 @@ body{
 p{
 	margin: 20px;
 }
+header{
+	font-family: Georgia;
+}
 h1,h2,h3{
 	font-family: Georgia;
 	color: #e5e5e5;
