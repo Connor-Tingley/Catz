@@ -48,7 +48,7 @@ a:active {
     font-size: 800%;
     width: 110%;
     margin: -10px -5% 0px -5%;
-	background-image: linear-gradient(to top, rgba(10, 10, 10,1), rgba(10, 10, 10,1) 50%);
+	background-color: rgb(20, 20, 20)
 }
 .stickyBlock{
 	display: inline-block;
@@ -62,7 +62,7 @@ a:active {
     font-family: Georgia;
 	color: rgb(229,229,229);
     font-size: 200%;
-	background-image: linear-gradient(to top, rgba(20, 20, 20,1), rgba(20, 20, 20,1) 80%);
+	background-color: rgb(25, 25, 25)
 }
 .mainBlock {
 	position: static;
