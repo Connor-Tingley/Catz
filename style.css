@@ -34,12 +34,14 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
-    color: rgb(158,192,255);
+    color: rgb(158, 255, 191);
+    font-weight: bold;
 }
 
 a:active {
 	text-decoration: none;
-    color: rgb(167, 158, 255);
+    color: rgb(136, 224, 166);
+    font-weight: bold;
 }
 .titleBlock{
 	display: inline-block;
@@ -50,7 +52,7 @@ a:active {
     font-size: 800%;
     width: 110%;
     margin: -10px -5% 0px -5%;
-	background-color: rgb(20, 20, 20)
+	background-color: rgb(5, 5, 5)
 }
 .stickyBlock{
 	display: inline-block;
@@ -64,21 +66,21 @@ a:active {
     font-family: Georgia;
 	color: rgb(229,229,229);
     font-size: 200%;
-	background-color: rgb(25, 25, 25)
+	background-color: rgb(20, 20, 20)
 }
 .mainBlock {
 	position: static;
     display: inline-block;
     width: 700px;
     margin: 20px 1% 40px 20%;
-    background-color: rgb(80,80,80);
+    background-color: rgb(70,70,70);
 }
 .linkBlock {
     display: inline-block;
     position: sticky;
     vertical-align: top;
     top: 90px;
-    background-color: rgb(80,80,80);
+    background-color: rgb(70,70,70);
     width: 200px;
     margin: 20px 0% 10px 10px
 }
