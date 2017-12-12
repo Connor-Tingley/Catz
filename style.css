@@ -1,4 +1,6 @@
 body{
+	max-width: 100%;
+    overflow-x: hidden;
 	font-family: Palatino;
 	color: #e5e5e5;
 	background-color: rgb(40,40,40) 
